@@ -4,7 +4,16 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-
+header {
+  background: #ffffff;
+  position: relative;
+  margin: 5%;
+  left: 10%;
+}
+nav {
+  color: #373b47;
+  font-family: 'Fjalla One', sans-serif;
+}
 *:before, *:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -67,6 +76,32 @@ a:hover {
 
 .text-uppercase {
   text-transform: uppercase;
+}
+footer {
+  background: #373b47;
+    position: relative;
+    float: right;
+    width: 100%;
+    height: 20%;
+}
+.copy,
+h2,
+h4 {
+  text-align: center;
+}
+.lap {
+  display: block;
+  margin: auto;
+}
+h2 {
+  font-size: 250%;
+}
+.box-pink {
+  background: #f17c72;
+}
+.services,
+.lorem {
+  color: #ffffff;
 }
 
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
