@@ -4,20 +4,12 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+
 header {
   background: #ffffff;
   position: relative;
-  margin: 5%;
-  left: 10%;
-}
-nav {
-  color: #373b47;
-  font-family: 'Fjalla One', sans-serif;
-}
-*:before, *:after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+  /* margin: 5%;
+  left: 10%; */
 }
 
 body {
@@ -26,47 +18,8 @@ body {
   line-height: 1.71429;
 }
 
-img {
-  vertical-align: middle;
-}
-
-.container {
-  width: 1200px;
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 14px;
-  padding-right: 14px;
-}
-
-.container:before, .container:after {
-  content: " ";
-  display: table;
-}
-
-*:before, *:after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-.container:after {
-  clear: both;
-}
-
-.mb-0 {
-  margin-bottom: 0px;
-}
-
-.mt-0 {
-  margin-top: 0px;
-}
-
-.m-0 {
-  margin: 0px;
-}
-
-a {
-  color: #373B47;
+.btn {
+  background-color: #63D995;
   text-decoration: none;
 }
 
@@ -74,9 +27,18 @@ a:hover {
   color: #E95853;
 }
 
-.text-uppercase {
+.uppercase {
   text-transform: uppercase;
 }
+
+.align{
+  text-align: center;
+}
+
+.white{
+  color: #ffffff;
+}
+
 footer {
   background: #373b47;
     position: relative;
@@ -84,25 +46,60 @@ footer {
     width: 100%;
     height: 20%;
 }
-.copy,
-h2,
-h4 {
-  text-align: center;
-}
+
 .lap {
   display: block;
   margin: auto;
 }
-h2 {
-  font-size: 250%;
-}
+
 .box-pink {
   background: #f17c72;
-}
-.services,
-.lorem {
-  color: #ffffff;
+  width: 100%;
 }
 
-/*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
+.home{
+  background-image: url("../assets/images/bg-home.jpg");
+  background-size: auto;
+}
+
+.title{
+  font-size: 250%;
+  padding-top: 5%;
+}
+
+.servimg{
+  width: 20%;
+  height: 20%;
+  margin-left: 9%;
+  margin-top: 3%;
+}
+
+.container-img{
+  margin-left: 5%;
+  margin-top: 2%;
+}
+
+.lap{
+  width: 75%;
+  height: 30%;
+  margin-top: 2%;
+}
+
+.work{
+  width: 25%;
+  height: 15%;
+  margin-left: 3%;
+  margin-top: 3%;
+}
+
+.set{
+  margin-left: 9%;
+  margin-top: 2%;
+}
+
+.logo{
+  width: 5%;
+  height: 5%;
+  margin-left: 85%;
+}
 
